@@ -17,13 +17,14 @@
 
 var max = 
 
-for (var i = 0, i < numbers.length, i++){
+for (var i = 0; i < numbers.length; i++){
 
-if(i>max){
+  if(i>max){
 
-  console.log numbers[0]
+    console.log numbers[0]
 
-}  
+  }  
+} //end for
 
   var numbers = [16, 25, 4, 13, 57, 88, 102, 45]
 
